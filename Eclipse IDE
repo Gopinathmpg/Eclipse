@@ -1,0 +1,5 @@
+Ctrl + i will align all the lines.
+
+to import git project, open git perspective and clone a git repository, it will import all the project files form the github.
+we have to mention the url and username and password of github account.
+once cloned to local repo, we can do changes and add and commit and push to remote repository.
