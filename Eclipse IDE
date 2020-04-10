@@ -1,5 +1,24 @@
-Ctrl + i will align all the lines.
+1)Ctrl + i will align all the lines.
 
+2)
 to import git project, open git perspective and clone a git repository, it will import all the project files form the github.
 we have to mention the url and username and password of github account.
-once cloned to local repo, we can do changes and add and commit and push to remote repository.
+
+once cloned to local repo, we have to import the folder into the project to work on it.
+
+Right click on the folder in git and click import projects. 
+
+after importing, right click on the project and select properties. Go to faucets and select java to convert it into java project.
+
+Then go to build path and add external libs adn then build workspace.
+
+Then we can do changes,commit and push to remote repository. Before pushing, we need to pull from remote so that the local repo is 
+matching with the remote repo else it will not push.
+
+3)
+If you face any conflict files, try to reset the git to the previous commit and try to pull again.
+
+Conflict happens when multiple users modify the same files and then we try to pull. To avoid this, better reset to previous commit
+and pull again.
+
+
